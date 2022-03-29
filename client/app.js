@@ -52,6 +52,8 @@ let showEditForm = (itemNum) => {
   }
 };
 
+
+// this is call right away and every time a chirp is added/edited/removed.
 let gettingData = () => {
   $.get(route).done(function (data) {
     $chirpsContainer.empty();
