@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+
+.chirp-div-ind {
+    background-color: wheat;
+}
+
+.modal-div {
+    background-color: white;
+    display: none;
+}
